@@ -25,7 +25,7 @@ elif opcao == 2:
 elif opcao == 3:
     preco_final = preco
     valor_parcela = preco_final / 2
-    print(f'Sua compra será parcelada em 2x de R${valor_parcela:.2f}')
+    print(f'Sua compra será parcelada em 2x de R${valor_parcela:.2f} SEM JUROS')
 elif opcao == 4:
     juros = preco * 20/100
     preco_final = preco + juros
