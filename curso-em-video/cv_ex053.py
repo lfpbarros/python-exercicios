@@ -5,6 +5,8 @@ contrario = ''
 frase_sem_espaco = frase.split()
 frase_sem_espaco = ''.join(frase_sem_espaco)
 
+# Também podemos inverter com contrario = frase_sem_espaco[::-1]
+
 for i in range(len(frase) -1, -1, -1):
     if frase[i] != ' ':
         contrario += frase[i]
